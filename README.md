@@ -5,7 +5,8 @@ This is a python script for crudely, randomly generating some glitchy [impulse r
 ## Quick background:
 
 At the risk of over-explaining, here's a bit of optional reading for context:
-Impulse responses are traditionally audio recordings that capture how sound decays within a specific space (or amp or piece of hardware). You feed it a very brief, uniform noise, and treat whatever comes out the other end as "what this space does to sound." This process takes that space and treats it as a [black box](https://en.wikipedia.org/wiki/Black_box) so that you can imitate it without any need to understand _how_ it's happening. A convolution reverb takes the data from that recording (the impulse response) and applies "what this space does to sound" to whatever audio you send it.
+
+Impulse responses are traditionally audio recordings that capture how sound decays within a specific space (or amp or piece of hardware). You feed it a very brief, uniform noise, and treat whatever comes out the other end as "what this space does to sound." This process takes that space and treats it as a [black box](https://en.wikipedia.org/wiki/Black_box) so that you can imitate it without any need to understand _how_ it's affecting the sound in that way. A convolution reverb takes the data from that recording (the impulse response) and applies "what this space does to sound" to whatever audio you send it.
 
 But what if we use it the wrong way? In most convolution reverb plugins, _any audio file_ can be loaded in as an impulse response. A recording of a train horn. A cat's meow. Free Bird. None of those are "what a space does to sound," but pretending they are can produce some seriously wacky effects. You can even get into synthesizing your own impulse responses as a way to design the effects you get out of using them.
 
